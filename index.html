@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes App</title>
+    <link rel="stylesheet" href="./main.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
+
+</head>
+<body>
+    <div class="app-container">
+        <header>
+            <span id="dateTxt" class="date-text"></span>
+        </header>
+        <main>
+            <div class="notes-wrapper">
+
+            </div>
+        </main>
+        <footer>
+            <div class="footer">
+                <input type="text" id="inputNote" placeholder="Note">
+                <button type="button" id="addNoteBtn" class="addNote-btn">+</button>
+            </div>
+        </footer>
+    </div>
+
+    <div id="notes" class="note hidden">
+        <div class="note-info">
+            <input type="checkbox" id="noteCheck" class="note-check">
+            <label id="lblId" class="note-text" for="idNoteCheck">Note</label>
+        </div>
+        <button type="button" id="noteDelBtn" class="noteDel-btn">X</button>
+    </div>
+    <script src="./notes.js"></script>
+</body>
+</html>
+
+
+
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+    <script src="./notes.js"></script>
+</body>
+</html>
